@@ -98,8 +98,11 @@ section {
     margin: auto;
 }
 
+
 .project-card {
     display: none;
+    justify-content: center;
+    text-align: center;
 }
 
 .prev,
@@ -159,32 +162,21 @@ section {
     }
 }
 
-/* .project-card {
-    width: 200px;
-    height: 300px;
-    box-shadow: 5px 5px 20px #c6c6c6;
-    margin: 10px;
-}
-
-.project-container {
-    display: flex;
-    justify-content: space-around;
-} */
-
 .project-image {
     margin-top: 25px;
-    width: 300px;
+    width: 80%;
     border-radius: 10px;
 }
 
 .project-card p {
-    width: 300px;
     padding: 10px;
+
 }
 
 .subtext {
     font-size: 15px;
     font-weight: 300;
+    text-align: center;
 }
 
 h1 {
